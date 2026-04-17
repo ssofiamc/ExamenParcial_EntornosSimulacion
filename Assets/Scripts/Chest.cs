@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("Tipo de Cofre")] // Si es normal o mímico
+    public bool isMimic = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Recompensas (Cofre Normal)")] // Las estadísticas que le aumenta al explorador
+    public float healthBonus = 5f;
+    public float attackBonus = 2f;
+
+    [Header("Configuración del Mímico")] // Acá se configura el prefab del monstruo que va a salir
+    public GameObject monsterPrefab;
 }

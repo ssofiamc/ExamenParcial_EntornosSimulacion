@@ -1,16 +1,6 @@
-using UnityEngine;
-
-public class MonsterState : MonoBehaviour
+public enum  MonsterState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    Patrolling,  // Patrullando la mazmorra
+    Chasing,     // Persiguiendo al aventurero
+    Attacking  // Atacando al aventurero
 }
