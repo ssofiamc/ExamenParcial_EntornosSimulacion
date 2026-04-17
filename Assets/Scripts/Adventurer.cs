@@ -94,7 +94,10 @@ public class Adventurer : MonoBehaviour
         }
         else // Si hay un obstáculo
         {
-            if (currentState == AdventurerState.Exploring) SelectNewDestination(); // Va a otra parte
+            if (currentState == AdventurerState.Exploring)
+            {
+                SelectNewDestination(); // Va a otra parte
+            }
         }
     }
 
