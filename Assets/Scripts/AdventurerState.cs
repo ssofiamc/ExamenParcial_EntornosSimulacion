@@ -1,16 +1,7 @@
-using UnityEngine;
-
-public class AdventurerState : MonoBehaviour
+public enum AdventurerState
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    Exploring,       // Explorando la mazmorra 
+    SearchingChest,  // Buscando un cofre
+    Fighting,        // Peleando contra un monstruo
+    Fleeing          // Huyendo de un monstruo
 }
